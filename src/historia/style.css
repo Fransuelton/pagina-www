@@ -1,0 +1,42 @@
+html {
+    background-color: floralwhite;
+}
+
+.texto{
+    font: 20px arial;
+    text-align: center;
+    border: solid 5px black;
+    margin: 15px;
+    padding: 15px;
+    background-color: #1d7ac1;
+    color: white;
+}
+
+.botoes {
+    padding: 10px;
+    border: 5px solid #1D7AC7;
+    color: #1D7AC7;
+    text-align: center;
+}
+#voltar-pagina {
+    margin: 30px;
+    color: black;
+}
+
+#quiz {
+    margin: 30px;
+    color: black;
+}
+
+#creditos {
+    margin: 30px;
+    color: black;
+}
+
+h1 {
+    font: 30px arial;
+    background-color: #1d7ac1;
+    border: solid 5px black;
+    color: white;
+    text-align: center;
+}

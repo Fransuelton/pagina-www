@@ -1,0 +1,43 @@
+html {
+    background-color: floralwhite;
+}
+
+h1 {
+    font: 30px arial;
+    background-color: #1D7AC7;
+    border: solid 5px black;
+    text-align: center;
+    color: white;
+}
+
+.botoes{
+    padding: 10px;
+    border: 5px solid #1D7AC7;
+    color: #1D7AC7;
+    text-align: center;
+}
+
+#historia {
+    color: black;
+    margin: 50px;
+}
+
+#quiz {
+    color: black;
+    margin: 50px;
+}
+
+#creditos {
+    color: black;
+    margin: 50px;
+}
+
+.introducao {
+    background-color: #1D7AC7;
+    border: solid 5px black;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    font: 20px arial;
+    text-align: center;
+}
