@@ -7,5 +7,11 @@ Projeto de site sobre o World Wide Web "WWW". 🚀💻
 - HTML
 - CSS
 - JAVASCRIPT
-  
-### ⚠️ Em breve o projeto terá atualização e conserto de possíveis bugs.
+# Como usar :
+1 - Clone o projeto
+```
+git clone url
+```
+### ⚠️ O projeto terá atualizações constantes assim como conserto de possíveis bugs.
+
+### Obrigado por visitar meu projeto! ❤️
