@@ -12,6 +12,6 @@ Projeto de site sobre o World Wide Web "WWW". 🚀💻
 ```
 git clone url
 ```
-### ⚠️ O projeto terá atualizações constantes assim como conserto de possíveis bugs.
+### ⚠️ O projeto terá atualizações.
 
 ### Obrigado por visitar meu projeto! ❤️
