@@ -1,5 +1,5 @@
-# Projeto Página de site 
-Projeto de site sobre o World Wide Web "WWW". 🚀💻
+# Projeto Página de site 🚀🌍
+Fiz este projeto para treinar minhas habilidades em HTML e CSS, estou atualizando ele sempre que possível. na página e contada um pouco da história de como surgiu o famoso www na internet.
 
 <img src="./src/images/tela.gif">
 
@@ -12,6 +12,4 @@ Projeto de site sobre o World Wide Web "WWW". 🚀💻
 ```
 git clone url
 ```
-### ⚠️ O projeto terá atualizações.
-
 ### Obrigado por visitar meu projeto! ❤️
