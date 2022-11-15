@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,59 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hístoria World Wide Web</h1>
-    <div class="botoes">
+    <header>
+        <h1>História World Wide Web</h1>
 
-    <a href="/index.html" id="voltar-pagina">Voltar a página principal</a>
-    </div>
-    <div class="texto">
-        <h2>Era uma vez...</h2>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Voltar a página Principal</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <p>A idéia de World Wide Web surgiu em 1980, na Suíça.
-        O precursor da idéia foi o britânico Tim Berners-Lee. 
-        Um computador NeXTcube foi usado por Berners-Lee como primeiro servidor web
-        e também para escrever o primeiro navegador, o WorldWideWeb, em 1990.
-        Em 6 de agosto de 1991, Tim Berners-Lee postou um resumo sobre todas as suas idéias e 
-        projetos no grupo de notícias de nome alt.hypertext. Esta data marca a estréia oficial 
-        da Web como um serviço publicado na Internet.</p>
-        
-        <img src="../images/tim-berners-lee.png" alt="Imagem de Tim-Berners-Lee ao lado de um computador" title="Tim-Berners-Lee Criador do WWW (World Wide Web)">
-    </div>
+    <main>
+        <section>
+            <p class="texto">A idéia de World Wide Web surgiu em 1980, na Suíça. O precursor da idéia foi o britânico Tim Berners-Lee.
+                Um computador NeXTcube foi usado por Berners-Lee como primeiro servidor web e também para escrever o
+                primeiro navegador, o WorldWideWeb, em 1990.
+
+                Em 6 de agosto de 1991, Tim Berners-Lee postou um resumo sobre todas as suas idéias e projetos no grupo
+                de notícias de nome alt.hypertext. Esta data marca a estréia oficial da Web como um serviço publicado na
+                Internet. Desde então, a Internet cresceu em proporções gigantescas. A quantidade de informações que
+                está disponível no universo online é muito mais do que você poderia assimilar durante uma vida inteira.
+                A chance de ser perder em meio à tanta informação é muito grande, por esta razão é muito importante a
+                forma como tais informações estão dispostas. É aí que entra o hipertexto.</p>
+
+            <figure>
+                <img src="/src/images/tim-berners-lee.png" alt="Imagem de Tim Berners-Lee ao lado de um computador" title="Imagem de Tim Berners-Lee ao lado de um computador" class="imagem">
+            </figure>
+        </section>
+
+        <aside class="area-feedback">
+            <h2>Feedback</h2>
+            <p>E aí, Oque achou dessa história ?</p>
+
+            <label for="feedback-gostei">Gostei</label>
+            <input type="radio" name="feedback" id="feedback-gostei">
+
+            <label for="feedback-nao-gostei">Não gostei</label>
+            <input type="radio" name="feedback" id="feedback-nao-gostei">
+
+            <br><br>
+            <input type="submit" value="Enviar">
+        </aside>
+
+    </main>
+
+    <br><br>
+
+    <footer>
+        <a href="https://www.instagram.com/elton_batista19" target="_blank"><img src="/src/images/social-media/instagram.svg"></a>
+        <a href="https://www.linkedin.com/in/fransuelton/" target="_blank"><img src="/src/images/social-media/linkedin.svg"></a>
+        <a href="https://github.com/Fransuelton" target="_blank"><img src="/src/images/social-media/github.svg"></a>
+    </footer>
 </body>
+
 </html>

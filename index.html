@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>World Wide Web - Página Principal</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>World Wide Web &#x1F30D;</h1>
+    <header>
 
-    <div class="botoes">
-        <a href="./src/historia/index-historia.html" id="historia">Hístoria</a>
-        <a href="" id="quiz" onclick="clicou()">Quiz</a>
-        <a href="./src/creditos/index-creditos.html" id="creditos">Créditos</a>
-    </div>
-    
-    <div class="introducao">
-        <p>World Wide Web, o famoso WWW, é um sistema de documentos dispostos na Internet que permitem
-        o acesso às informações apresentadas no formato de hipertexto. Para ter acesso a tais informações 
-        pode-se usar um programa de computador chamado navegador. Os navegadores mais famosos são: 
-        Internet Explorer, Mozilla Firefox, Google Chrome e Safari.</p>
+        <h1>World Wide Web 🌍💻</h1>
 
-        <img src="./src/images/site-www.png" alt="Boneco pintando a sigla WWW (World Wide Web)" title="A sigla WWW sendo pintada por um boneco.">
-    </div>
-    <script src="index.js"></script>
+        <nav>
+            <ul>
+                <li><a href="/src/historia/index-historia.html">História</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            
+            <p class="introducao">World Wide Web, o famoso WWW, é um sistema de documentos dispostos na Internet que permitem o acesso às
+                informações apresentadas no formato de hipertexto. Para ter acesso a tais informações pode-se usar um
+                programa de computador chamado navegador. Os navegadores mais famosos são: Internet Explorer, Mozilla
+                Firefox, Google Chrome e Safari.</p>
+            <figure>
+                <img src="/src/images/imagem-principal.png" alt="Imagem principal" title="Boneco pintando a as letras WWW de azul" class="imagem">
+            </figure>
+        </section>
+
+        <br><br>
+
+        <article class="sobre-hipertexto">
+            <h2>O que é hipertexto?</h2>
+            <p>Os hipertextos são textos exibidos em formato digital, os quais podem conter informações em formato de
+                imagens, sons, vídeos, etc. O acesso a tais informações se dá por meio de links, que servem como uma
+                ponte entre os mais diversos sites da Internet e seus conteúdos.</p>
+        </article>
+
+    </main>
+
+    <br>
+    <br>
+    <footer>
+        <a href="https://www.instagram.com/elton_batista19" target="_blank"><img src="./src/images/social-media/instagram.svg"></a>
+        <a href="https://www.linkedin.com/in/fransuelton/" target="_blank"><img src="./src/images/social-media/linkedin.svg"></a>
+        <a href="https://github.com/Fransuelton" target="_blank"><img src="./src/images/social-media/github.svg"></a>
+    </footer>
 </body>
+
 </html>

@@ -1,43 +1,43 @@
-html {
-    background-color: floralwhite;
+body{
+    background-color: #0B486B;
 }
 
-h1 {
-    font: 30px arial;
-    background-color: #1D7AC7;
-    border: solid 5px black;
+header, a{
     text-align: center;
-    color: white;
+    padding: 5px;
+    color: #e9e9e9;
 }
 
-.botoes{
+.sobre-hipertexto{
+    text-align: center;
+    font-size: larger;
+    background-color: #e9e9e9;
+    color: #2A2829;
+    border-radius: 20px;
+    text-align: center;
     padding: 10px;
-    border: 5px solid #1D7AC7;
-    color: #1D7AC7;
+}
+
+.introducao{
     text-align: center;
+    font-size: larger;
+    background-color: #e9e9e9;
+    color: #2A2829;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
 }
 
-#historia {
-    color: black;
-    margin: 50px;
+.imagem{
+    width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 0px auto;
+    padding: 5px;
 }
 
-#quiz {
-    color: black;
-    margin: 50px;
-}
-
-#creditos {
-    color: black;
-    margin: 50px;
-}
-
-.introducao {
-    background-color: #1D7AC7;
-    border: solid 5px black;
-    color: white;
-    margin: 15px;
-    padding: 15px;
-    font: 20px arial;
+footer{
+    background-color: black;
+    border-radius: 10px;
     text-align: center;
 }
