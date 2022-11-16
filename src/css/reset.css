@@ -11,9 +11,8 @@ body{
     background-color: #0B486B;
 }
 
-a {
+.a-volta {
     color: white;
-    margin: 20px;
     padding: 10px;
     background-color: #052c42;
     border-radius: 10px;
@@ -24,4 +23,3 @@ header{
     padding: 5px;
     color: #e9e9e9;
 }
-
